@@ -14,10 +14,11 @@ function check() {
 
   // alert if nothing is entered
   if (textInput === '') {alert("Please input a value")}
-
+  else {
   // if input's not empty check palidrome
   textToDisplay = checkPali(textInput);
   result.innerHTML = textToDisplay;
+  }
 }
 
 function checkPali(textInput) {
