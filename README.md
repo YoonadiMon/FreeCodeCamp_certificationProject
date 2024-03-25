@@ -2,9 +2,9 @@
 # Certification Projects from [freeCodeCamp](https://www.freecodecamp.org/learn)
 
 ## Projects in order of completion
-| Project Name | core curriculum | Date of Completion |
+| Project Name | Core Curriculum | Date of Completion |
 | ----------- | ----------- | ----------- |
-| [Build a Palindrome Checker](#build-a-palindrome-checker) | JavaScript Algorithms and Data Structures (Beta) | 25-March-2024 |
+| [Build a Palindrome Checker](#build-a-palindrome-checker) | [JavaScript Algorithms and Data Structures (Beta)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/) | 25-March-2024 |
 
 
 ### Build a Palindrome Checker
