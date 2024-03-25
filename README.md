@@ -10,7 +10,7 @@
 ###Build a Palindrome Checker
 
 ### Screenshot
-![]([[Screenshots\ScreenshotPalindromeChecker.png](https://github.com/YoonadiMon/FreeCodeCamp_certificationProject/blob/main/Screenshots/ScreenshotPalindromeChecker.png)](https://raw.githubusercontent.com/YoonadiMon/FreeCodeCamp_certificationProject/main/Screenshots/ScreenshotPalindromeChecker.png))
+![](https://github.com/YoonadiMon/FreeCodeCamp_certificationProject/blob/main/Screenshots/ScreenshotPalindromeChecker.png)
 
 ### Wakatime Badge
 [![wakatime](https://wakatime.com/badge/user/018e0ede-5109-4231-a915-219f103a6ca7/project/018e748d-668f-4b78-82cc-6daa142d11bf.svg)](https://wakatime.com/badge/user/018e0ede-5109-4231-a915-219f103a6ca7/project/018e748d-668f-4b78-82cc-6daa142d11bf)
