@@ -9,7 +9,7 @@
 
 ### Build a Palindrome Checker
 
-### Screenshot
+### Page Screenshot
 ![](https://github.com/YoonadiMon/FreeCodeCamp_certificationProject/blob/main/Screenshots/ScreenshotPalindromeChecker.png)
 
 ### Wakatime Badge
