@@ -7,7 +7,7 @@
 | [Build a Palindrome Checker](#build-a-palindrome-checker) | 25-March-2024 |
 
 
-###Build a Palindrome Checker
+### Build a Palindrome Checker
 
 ### Screenshot
 ![](https://github.com/YoonadiMon/FreeCodeCamp_certificationProject/blob/main/Screenshots/ScreenshotPalindromeChecker.png)
