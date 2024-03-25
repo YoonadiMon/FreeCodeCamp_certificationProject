@@ -98,4 +98,13 @@ body main #textDefArea {
 }
 body main #textDefArea i {
   margin-right: 0.5rem;
+}
+
+@media (max-width: 500px) {
+  body main #mainContent h1 {
+    font-size: 1.5rem;
+  }
+  body main #mainContent .contentBoxes {
+    width: 80%;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -99,14 +99,17 @@ body {
   }
 }
 
-// @media (max-width: 900px) {
-//   body {
-//     main {
-//       #mainContent {
-//         .contentBoxes {
-//           width: 65%;
-//         }
-//       }
-//     }
-//   }
-// }
+@media (max-width: 500px) {
+  body {
+    main {
+      #mainContent {
+        h1 {
+          font-size: 1.5rem;
+        }
+        .contentBoxes {
+          width: 80%;
+        }
+      }
+    }
+  }
+}
