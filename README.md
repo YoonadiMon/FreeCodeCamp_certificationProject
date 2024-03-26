@@ -25,7 +25,7 @@ if (textInput[i].match(/[a-z0-9]/i)) {}
 
 ### Useful resources
 
-- [Alphanumeric](https://stackoverflow.com/questions/388996/regex-for-javascript-to-allow-only-alphanumeric/389022#389022) - The stackoverflow that helped me figure out how to check if the characters were alphanumeric with RegEx.
+- [Alphanumeric](https://stackoverflow.com/questions/388996/regex-for-javascript-to-allow-only-alphanumeric/389022#389022) - Helped me figure out how to check if the characters were alphanumeric with RegEx.
 
 ## Survey Form
 
