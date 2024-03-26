@@ -5,7 +5,7 @@
 | Project Name | Core Curriculum | Date of Completion |
 | ----------- | ----------- | ----------- |
 | [Build a Palindrome Checker](#build-a-palindrome-checker) | [JavaScript Algorithms and Data Structures (Beta)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/) | 25-March-2024 |
-| [Survey Form](#uurvey-form) | [Responsive Web Design](https://www.freecodecamp.org/learn/2022/responsive-web-design/) | 26-March-2024 |
+| [Survey Form](#survey-form) | [Responsive Web Design](https://www.freecodecamp.org/learn/2022/responsive-web-design/) | 26-March-2024 |
 
 
 ## Build a Palindrome Checker
