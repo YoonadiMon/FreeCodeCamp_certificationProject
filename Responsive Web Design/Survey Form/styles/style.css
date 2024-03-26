@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Gudea", sans-serif;
+  font-size: 18px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://files.jotform.com/jufs/EltonCris/form_files/keyboard-498396_12801.png?md5=LOqNcahB_2yidY3WqxrEug&expires=1711420847);
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+body #formContainer {
+  margin: 50px 0;
+  color: white;
+  width: 700px;
+}
+body #formContainer #formHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body #formContainer #form {
+  margin-top: 50px;
+  padding: 30px 50px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+body #formContainer #form form .rows {
+  margin-bottom: 15px;
+}
+body #formContainer #form form .rows .inputArea {
+  margin-top: 5px;
+  width: 100%;
+  padding: 10px 5px;
+}
+body #formContainer #form form .rows select {
+  color: #3a3b3a;
+}
+body #formContainer #form form .rows p {
+  margin-bottom: 5px;
+}
+body #formContainer #form form .rows #submit {
+  margin-top: 15px;
+  width: 100%;
+  background: #C6C8C4;
+  color: #fefffe;
+  padding: 8px 0;
+  border: none;
+  border-radius: 5px;
+}
+body #formContainer #form form .rows #submit:hover {
+  background: transparent;
+  color: #a3a5a0;
+  border: 1px solid #C6C8C4;
+}/*# sourceMappingURL=style.css.map */

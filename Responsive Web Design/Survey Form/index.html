@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="/styles/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gudea:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main id="formContainer">
+    <div id="formHeader">
+      <h1 id="title">
+        Survey Form Project 
+      </h1>
+      <p id="description">
+        We appreciate your participation in taking our survey for future improvement.
+      </p>
+    </div>
+    <div id="form">
+      <form action="" id="survey-form">
+        <div class="rows">
+          <label for="name" id="name-label">Name </label><br>
+          <input class="inputArea" type="text" placeholder="Enter your name " id="name" required>
+        </div>
+        <div class="rows">
+          <label for="email" id="email-label">Email </label><br>
+          <input class="inputArea" placeholder="Enter your email " type="email" id="email" required>          
+        </div>
+        <div class="rows">
+          <label for="number" id="number-label">Age</label><br>
+          <input class="inputArea" placeholder="Enter your age " type="number" id="number" min="1" max="100">          
+        </div>
+        <div class="rows">
+          <label for="dropdown">Which socail media platform is most likely to be News source?</label><br>
+
+          <select name="" id="dropdown" class="inputArea">
+            <option disabled="" selected="" value="">Select platform</option>
+            <option value="facebook">Facebook</option>
+            <option value="twitter">Twitter</option>
+            <option value="tiktok">Tiktok</option>
+            <option value="youtube">Youtube</option>
+            <option value="instagram">Instagram</option>
+          </select>
+        </div>
+        <div class="rows">
+          <p>You completely trust the News from selected platform.</p>
+          
+          <div id="radioOptions">
+            <input type="radio" value="agree" name="trust" id="agree">
+            <label for="agree">Agree</label><br>
+  
+            <input type="radio" value="disagree" name="trust" id="disagree">          
+            <label for="disagree">Disagree</label><br>
+  
+            <input type="radio" value="notDisagreeAgree" name="trust" id="notDisagreeAgree">
+            <label for="notDisagreeAgree">Neither Agree Nor Disagree</label>
+          </div>
+        </div>
+        <div class="rows">
+          <p>
+            What types of news are you interested in?
+          </p>
+          <div id="checkboxOptions">
+            <input type="checkbox" id="Sports" name="Sports" value="Bike">
+            <label for="Sports">Sports</label><br>
+            <input type="checkbox" id="Business" name="Business" value="Car">
+            <label for="Business">Business</label><br>
+            <input type="checkbox" id="Entertainment" name="Entertainment" value="Boat">
+            <label for="Entertainment">Entertainment</label>
+          </div>
+        </div>
+        <div class="rows">
+          <p>
+            For anything else you want to include regarding your choices:
+          </p>
+          <textarea class="inputArea" name="extra" rows="3"></textarea>
+        </div>
+        <div class="rows">
+          <input type="submit" value="Submit" id="submit">
+        </div>
+
+      </form>
+    </div>
+
+  </main>
+</body>
+</html>
