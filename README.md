@@ -63,7 +63,7 @@ I spent ≈ 3 and a half hour figuring out the logic behind the converter and tu
 
 ### Useful resources
 
-- [Roman Numeral](https://www.hunter.cuny.edu/dolciani/pdf_files/brushup-materials/reading-and-writing-roman-numerals.pdf) - How to read and write Roman Numberal.
+- [Roman Numeral](https://www.hunter.cuny.edu/dolciani/pdf_files/brushup-materials/reading-and-writing-roman-numerals.pdf) - READING AND WRITING ROMAN NUMERALS.
 
 # Acknowledgments
 
