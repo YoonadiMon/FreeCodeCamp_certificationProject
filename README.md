@@ -59,7 +59,7 @@ body {
 
 ### What I learned
 
-I spent ≈ 3 and a half hour figuring out the logic behind the converter. It took me longer than I hoped it did. :sweat_smile:
+I spent ≈ 3 and a half hour figuring out the logic behind the converter and turning it into JS code. It took me longer than I hoped it did. :sweat_smile:
 
 ### Useful resources
 
