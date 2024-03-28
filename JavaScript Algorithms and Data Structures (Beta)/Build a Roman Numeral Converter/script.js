@@ -1,6 +1,7 @@
 // set variables
 const romanNumerals =  ["I", "V", "X", "L", "C", "D", "M"];
 const arabicNumerals = [1,    5,   10,  50, 100, 500, 1000];
+let convertedRNum;
 
 const convertBtn = document.getElementById('convert-btn');
 const output = document.getElementById('output');
@@ -16,15 +17,12 @@ numInput.addEventListener("keypress", function(event) {
 })
 
 function primaryConverter() {
-  // Input
-  // variables needed for functions
-  let convertedRNum;
-
+  // add class
   output.classList.add('outputArea')
 
+  // Input
   // user input variable and turning it into array
   let numInput = document.getElementById('number').value;
-  console.log(numInput.length);
   if (numInput.length === 0) {
     output.innerText = "Please enter a valid number"
   } else if (numInput < 0) {
@@ -39,23 +37,24 @@ function primaryConverter() {
     for (let n = numberLength - 1; n >=  0 ; n--) {
       numInputArr.push(numInputStr[n]);
     }
-    console.log(`Current Number Array: ${numInputArr}`);
+    // console.log(`Current Number Array: ${numInputArr}`);
   
     // Process
     // Main Function
-    convertedRNum = convertNum(numberLength, numInput, convertedRNum, numInputArr);
+    convertedRNum = convertNum(numberLength, numInput, numInputArr);
   
     // Output
     output.classList.add('outputArea')
     output.innerHTML = convertedRNum;
   
-    console.log('%c Script End Result', 'color: #1E90FF');
-    console.log(`Converted Roman Number: ${convertedRNum}`);
+    // Console out the converted number
+    // console.log('%c Script End Result', 'color: #1E90FF');
+    // console.log(`Converted Roman Number: ${convertedRNum}`);
   }
 }
 
-function convertNum(numberLength, numInput, convertedRNum, numInputArr) {
-  console.log('%c convertNum()', 'color: blueviolet');
+function convertNum(numberLength, numInput, numInputArr) {
+  // console.log('%c convertNum()', 'color: blueviolet');
 
   // temp number variables
   let tempNum;
@@ -70,30 +69,30 @@ function convertNum(numberLength, numInput, convertedRNum, numInputArr) {
   if (tempNum === false) {
     if (numberLength <= 4) {
       tempThousand = convertThousands(numInputArr);
-      console.log(`converting thousands: ${tempThousand}`);
+      // console.log(`converting thousands: ${tempThousand}`);
     }
     if (numberLength >= 3) {
       tempHundred = convertHundreds(numInputArr);
-      console.log(`converting hundreds: ${tempHundred}`);
+      // console.log(`converting hundreds: ${tempHundred}`);
     }
     if (numberLength >= 2) {
       tempTen = convertTens(numInputArr);
-      console.log(`converting tens: ${tempTen}`);
+      // console.log(`converting tens: ${tempTen}`);
     }
     tempOne = convertOnes(numInputArr);
-    console.log(`converting ones: ${tempOne}`);
+    // console.log(`converting ones: ${tempOne}`);
 
     return (tempThousand !== undefined ? tempThousand : '')
     + (tempHundred !== undefined ? tempHundred : '')
     + (tempTen !== undefined ? tempTen : '') 
     + tempOne;
   }
-  console.log(`Converting slight error: ${convertedRNum}`);
+  // console.log(`Converting: ${convertedRNum}`);
   return tempNum;
 }
 
 function convertOnes(numInputArr) {
-  console.log('%c convertOnes()', 'color: blueviolet');
+  // console.log('%c convertOnes()', 'color: blueviolet');
   let tempDigit;
   let digitToConvert = numInputArr[0];
   tempDigit = checkMainDigit(digitToConvert, 1);
@@ -104,7 +103,7 @@ function convertOnes(numInputArr) {
 }
 
 function convertTens(numInputArr) {
-  console.log('%c convertTens()', 'color: blueviolet');
+  // console.log('%c convertTens()', 'color: blueviolet');
   let digitToConvert = numInputArr[1];
   let tempDigit;
   tempDigit = checkMainDigit(digitToConvert, 10);
@@ -115,7 +114,7 @@ function convertTens(numInputArr) {
 }
 
 function convertHundreds(numInputArr) {
-  console.log('%c convertHundreds()', 'color: blueviolet');
+  // console.log('%c convertHundreds()', 'color: blueviolet');
   let digitToConvert = numInputArr[2];
   let tempDigit;
   tempDigit = checkMainDigit(digitToConvert, 100);
@@ -126,7 +125,7 @@ function convertHundreds(numInputArr) {
 }
 
 function convertThousands(numInputArr) {
-  console.log('%c convertThousands()', 'color: blueviolet');
+  // console.log('%c convertThousands()', 'color: blueviolet');
   let digitToConvert = numInputArr[3];
   if (digitToConvert !== undefined) {
     let tempDigit;
@@ -140,9 +139,8 @@ function convertThousands(numInputArr) {
 }
 
 function checkMainNum(numInput) {
-  console.log('%c checkMainNum()', 'color: blueviolet');
+  // console.log('%c checkMainNum()', 'color: blueviolet');
   for (let i = 0; i < arabicNumerals.length; i++) {
-    // console.log(`${numInput} === ${arabicNumerals[i]}`);
     if (numInput === arabicNumerals[i]) {
       return romanNumerals[i];
     }
@@ -151,9 +149,9 @@ function checkMainNum(numInput) {
 }
 
 function checkMainDigit(digitToConvert, decimalValue) {
-  console.log('%c checkMainDigit()', 'color: blueviolet');
+  // console.log('%c checkMainDigit()', 'color: blueviolet');
   for (let i = 0; i < arabicNumerals.length; i++) {
-    console.log(`${digitToConvert * decimalValue} === ${arabicNumerals[i]}`);
+    // console.log(`${digitToConvert * decimalValue} === ${arabicNumerals[i]}`);
     if (Number(digitToConvert * decimalValue) === arabicNumerals[i]) {
       return romanNumerals[i];
     }
@@ -162,15 +160,14 @@ function checkMainDigit(digitToConvert, decimalValue) {
 }
 
 function checkNotMain(digitToConvert, index) {
-  console.log('%c checkNotMain()', 'color: blueviolet');
+  // console.log('%c checkNotMain()', 'color: blueviolet');
   if (digitToConvert <= 3 ) {
     return romanNumerals[index].repeat(digitToConvert)
-    } else if (digitToConvert > 5 && digitToConvert < 9) {
+  } else if (digitToConvert > 5 && digitToConvert < 9) {
     return romanNumerals[index+1] + romanNumerals[index].repeat(digitToConvert - 5)
-    } else if (digitToConvert < 5) {
+  } else if (digitToConvert < 5) {
     return romanNumerals[index] + romanNumerals[index+1]
-    } else {
-    console.log(`log ${romanNumerals[index+2]}`);
+  } else {
     return romanNumerals[index] + romanNumerals[index+2]
   }
 }
