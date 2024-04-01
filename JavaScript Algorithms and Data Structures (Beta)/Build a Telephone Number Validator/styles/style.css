@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #01303f;
+  width: 100vw;
+  display: grid;
+  place-content: center;
+}
+
+#header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  margin-top: 40px;
+}
+#header #headLogoImg {
+  width: 270px;
+}
+#header h1 {
+  color: #d4f0fc;
+}
+
+#phoneArea {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#phone {
+  width: 250px;
+  aspect-ratio: 9/16;
+  border: 2px solid #a193a0;
+  border-radius: 30px;
+  position: relative;
+}
+
+#phoneScreen {
+  height: 100%;
+  border: 7px solid black;
+  border-radius: 30px;
+  padding: 8px;
+  background: rgba(2, 87, 122, 0.9);
+}
+#phoneScreen #cameraArea {
+  width: 100%;
+  display: grid;
+  margin-bottom: 5px;
+  justify-content: center;
+}
+#phoneScreen #cameraArea #camera {
+  border-radius: 30px;
+  width: 45px;
+  aspect-ratio: 5/2;
+  background: black;
+}
+#phoneScreen #cameraArea #camera #cameraLens {
+  width: 10px;
+  height: 10px;
+  background: rgba(212, 240, 252, 0.5);
+  border: 3px solid #01303f;
+  border-radius: 50%;
+  position: relative;
+  top: 15%;
+  left: 65%;
+}
+#phoneScreen #appArea {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+}
+#phoneScreen #appArea #userEntry {
+  margin-bottom: 5px;
+}
+#phoneScreen #appArea #userEntry #rowOne {
+  display: flex;
+  margin-bottom: 5px;
+}
+#phoneScreen #appArea #userEntry #rowOne img {
+  width: 10%;
+  margin-right: 5px;
+}
+#phoneScreen #appArea #userEntry p {
+  margin: 0;
+  margin-bottom: 5px;
+  color: aliceblue;
+}
+#phoneScreen #appArea #userEntry input {
+  width: 100%;
+  border: none;
+  border-radius: 30px;
+  text-align: center;
+  padding: 3px;
+}
+#phoneScreen #appArea #results-div {
+  display: grid;
+  place-items: center;
+  height: 288.8888888889px;
+  width: 95%;
+}
+#phoneScreen #appArea #results-div #initialImg {
+  width: 125px;
+}
+#phoneScreen #appArea .displayNum {
+  background: #f4f0e8;
+  background-size: cover;
+  color: white;
+  padding: 0 5px;
+}
+#phoneScreen #appArea .displayNum .invalidNum, #phoneScreen #appArea .displayNum .validNum {
+  padding: 0 5px;
+}
+#phoneScreen #appArea .displayNum .invalidNum {
+  background: #ff1837;
+}
+#phoneScreen #appArea .displayNum .validNum {
+  background: #6dea26;
+}
+#phoneScreen #appArea #userInteract {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  bottom: 7px;
+  width: calc(100% - 14px);
+}
+#phoneScreen #appArea #userInteract #check-btn, #phoneScreen #appArea #userInteract #clear-btn {
+  background: transparent;
+  cursor: pointer;
+  border: none;
+}
+#phoneScreen #appArea #userInteract .buttonImg {
+  width: 32.5px;
+}
+#phoneScreen #appArea #userInteract .userInteract-shape-divider-bottom {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  padding: 0 3px;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  z-index: -1;
+}
+#phoneScreen #appArea #userInteract .userInteract-shape-divider-bottom svg {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 40px;
+}
+#phoneScreen #appArea #userInteract .userInteract-shape-divider-bottom .shape-fill {
+  fill: #FFFFFF;
+}/*# sourceMappingURL=style.css.map */

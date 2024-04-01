@@ -1,0 +1,169 @@
+$darkBlue: #01303f;
+$grey: #a193a0;
+$whiteBlue: #d4f0fc;
+$lightBlue: #2e9cca;
+$softBlue: #89d6fb;
+$greenBlue: #02577a;
+$paper: #f4f0e8;
+
+$phoneWidth: 250px;
+$phoneEdge: 30px;
+
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+
+  // background-image: url('/bgImg.svg');
+  // background-size: cover;
+
+  background-color: $darkBlue;
+  width: 100vw;
+  display: grid;
+  place-content: center;
+}
+#header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  margin-top: 40px;
+  #headLogoImg {
+    width: 270px;
+  }
+  h1 {
+    color: $whiteBlue;
+  }
+}
+#phoneArea {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#phone {
+  width: $phoneWidth;
+  aspect-ratio: 9/16;
+  border: 2px solid $grey;
+  border-radius: $phoneEdge;
+  position: relative;
+}
+#phoneScreen {
+  height: 100%;
+  border: 7px solid black;
+  border-radius: $phoneEdge;
+  padding: 8px;
+  background: rgba($color: $greenBlue, $alpha: 0.9);
+  #cameraArea {
+    width: 100%;
+    display: grid;
+    margin-bottom: 5px;
+    justify-content: center;
+    #camera {
+      border-radius: $phoneEdge;
+      width: calc($phoneWidth*0.18);
+      aspect-ratio: 5/2;
+      background: black;
+      #cameraLens {
+        width: calc($phoneWidth*0.04);
+        height: calc($phoneWidth*0.04);
+        background: rgba($color: $whiteBlue, $alpha: 0.5);
+        border: 3px solid $darkBlue;
+        border-radius: 50%;
+        position: relative;
+        top: 15%;
+        left: 65%;
+      }
+    }
+  }
+  #appArea {
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    #userEntry {
+      margin-bottom: 5px;
+      #rowOne {
+        display: flex;
+        margin-bottom: 5px;
+        img {
+          width: 10%;
+          margin-right: 5px;
+        }
+      }
+      p {
+        margin: 0;
+        margin-bottom: 5px;
+        color: aliceblue;
+      }
+      input {
+        width: 100%;
+        border: none;
+        border-radius: $phoneEdge;
+        text-align: center;
+        padding: 3px;
+      }
+    }
+    #results-div {
+      display: grid;
+      place-items: center;
+      height: calc((($phoneWidth/9)*16)*0.65);
+      width: 95%;
+      // border: 2px solid $grey;
+      #initialImg {
+        width: calc($phoneWidth*0.5);
+      }
+    }
+    .displayNum {
+      background: $paper;
+      background-size: cover;
+      color: white;
+      padding: 0 5px;
+      .invalidNum, .validNum {
+        padding: 0 5px;
+      }
+      .invalidNum {
+        background: #ff1837;
+      }
+      .validNum {
+        background: #6dea26;
+      }
+    }
+    #userInteract {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      bottom: 7px;
+      width: calc(100% - 14px);
+      #check-btn, #clear-btn {
+        background: transparent;
+        cursor: pointer;
+        border: none;
+      }
+      .buttonImg {
+          width: calc($phoneWidth*0.13);
+      }
+
+      .userInteract-shape-divider-bottom {
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        padding: 0 3px;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+        z-index: -1;
+      }
+      .userInteract-shape-divider-bottom svg {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 40px;
+      }
+      .userInteract-shape-divider-bottom .shape-fill {
+        fill: #FFFFFF;
+      }
+    }
+  }
+}
