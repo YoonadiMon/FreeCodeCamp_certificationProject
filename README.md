@@ -71,6 +71,30 @@ I spent ≈ 3 and a half hour figuring out the logic behind the converter and tu
 
 ## Build a Telephone Number Validator
 
+### Page Screenshot
+![](https://github.com/YoonadiMon/FreeCodeCamp_certificationProject/blob/main/Screenshots/ScreenshotTelephoneNumberValidator.png?raw=true)
+Github Repo: [https://github.com/YoonadiMon/FreeCodeCamp_certificationProject/tree/main/JavaScript%20Algorithms%20and%20Data%20Structures%20(Beta)/Build%20a%20Telephone%20Number%20Validator](https://github.com/YoonadiMon/FreeCodeCamp_certificationProject/tree/main/JavaScript%20Algorithms%20and%20Data%20Structures%20(Beta)/Build%20a%20Telephone%20Number%20Validator)
+
+### Wakatime Stats
+[![wakatime](https://wakatime.com/badge/user/018e0ede-5109-4231-a915-219f103a6ca7/project/018e946e-eda8-4e53-8b9c-af8a2a545be8.svg)
+
+### What I learned
+
+To remove spaces:
+```js
+checkNum = checkNum.replace(/ /g,'')
+```
+To check if character is not a number
+```js
+if (isNaN(userInput[i)) {}
+```
+
+### Useful resources
+
+Some of the Stack Overflow pages I looked through.
+- [Number](https://stackoverflow.com/questions/1779013/check-if-string-contains-only-digits) 
+- [White Spaces](https://stackoverflow.com/questions/6623231/remove-all-white-spaces-from-text)
+
 # Acknowledgments
 
 Forever thankful to [freeCodeCamp](https://www.freecodecamp.org/learn). Hoping that one day I could contribute back to such amazing community.
