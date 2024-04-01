@@ -34,7 +34,7 @@ if (textInput[i].match(/[a-z0-9]/i)) {}
 
 ### Page Screenshot
 ![](https://github.com/YoonadiMon/FreeCodeCamp_certificationProject/blob/main/Screenshots/ScreenshotSurveyForm.png?raw=true)
-Github Repo: [https://github.com/YoonadiMon/FreeCodeCamp_certificationProject/tree/main/JavaScript%20Algorithms%20and%20Data%20Structures%20(Beta)/Build%20a%20Palindrome%20Checker](https://github.com/YoonadiMon/FreeCodeCamp_certificationProject/tree/main/JavaScript%20Algorithms%20and%20Data%20Structures%20(Beta)/Build%20a%20Palindrome%20Checker)
+Github Repo: [https://github.com/YoonadiMon/FreeCodeCamp_certificationProject/tree/main/Responsive%20Web%20Design/Survey%20Form](https://github.com/YoonadiMon/FreeCodeCamp_certificationProject/tree/main/Responsive%20Web%20Design/Survey%20Form)
 
 ### Wakatime Stats
 ![](https://wakatime.com/badge/user/018e0ede-5109-4231-a915-219f103a6ca7/project/018e75c2-8eac-440e-9467-4f68f08b5c70.svg)
