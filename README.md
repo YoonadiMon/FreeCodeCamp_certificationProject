@@ -56,7 +56,7 @@ body {
 
 ### Page Screenshot
 ![](https://github.com/YoonadiMon/FreeCodeCamp_certificationProject/blob/main/Screenshots/ScreenshotRoman%20Numeral%20Converter.png?raw=true)
-Github Repo: [https://github.com/YoonadiMon/FreeCodeCamp_certificationProject/tree/main/JavaScript%20Algorithms%20and%20Data%20Structures%20(Beta)/Build%20a%20Palindrome%20Checker](https://github.com/YoonadiMon/FreeCodeCamp_certificationProject/tree/main/JavaScript%20Algorithms%20and%20Data%20Structures%20(Beta)/Build%20a%20Roman%20Numeral%20Converter)
+Github Repo: [https://github.com/YoonadiMon/FreeCodeCamp_certificationProject/tree/main/JavaScript%20Algorithms%20and%20Data%20Structures%20(Beta)/Build%20a%20Roman%20Numeral%20Converter](https://github.com/YoonadiMon/FreeCodeCamp_certificationProject/tree/main/JavaScript%20Algorithms%20and%20Data%20Structures%20(Beta)/Build%20a%20Roman%20Numeral%20Converter)
 
 ### Wakatime Stats
 ![](https://wakatime.com/badge/user/018e0ede-5109-4231-a915-219f103a6ca7/project/018e7f38-083c-453a-a646-9d57055bf78a.svg)
