@@ -100,6 +100,24 @@ For the SVG at the bottom
 - [Shape Divider](https://www.shapedivider.app/)
 
 ## Build a Cash Register
+
+### Page Screenshot
+![]()
+Github Repo: [https://github.com/YoonadiMon/FreeCodeCamp_certificationProject/tree/main/JavaScript%20Algorithms%20and%20Data%20Structures%20(Beta)/Build%20a%20Cash%20Register](https://github.com/YoonadiMon/FreeCodeCamp_certificationProject/tree/main/JavaScript%20Algorithms%20and%20Data%20Structures%20(Beta)/Build%20a%20Cash%20Register)
+
+### Wakatime Badge
+![WakatimeStat](https://github.com/YoonadiMon/FreeCodeCamp_certificationProject/assets/161032662/b4189ae9-f67c-4833-aec6-6bca48254f2c)
+
+### What I learned
+
+Round to two decimal:
+```js
+changeToConvert = (Number(cashAmount) - Number(price)).toFixed(2)
+```
+
+### Useful resources
+
+- [https://stackoverflow.com/questions/11832914/how-to-round-to-at-most-2-decimal-places-if-necessary](https://stackoverflow.com/questions/11832914/how-to-round-to-at-most-2-decimal-places-if-necessary) 
   
 # Acknowledgments
 
