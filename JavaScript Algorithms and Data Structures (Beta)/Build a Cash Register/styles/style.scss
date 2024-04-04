@@ -1,0 +1,163 @@
+@import './colors';
+$desktopWidth: 450px;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: $OxfordBlue;
+}
+
+header {
+  background: #000;
+  color: $White;
+  display: grid;
+  place-items: center;
+  padding-top: 40px;
+  h1 {
+    padding-top: 20px;
+    font-size: 2.5rem;
+  }
+}
+
+.custom-shape-divider-top-1712199990 {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+.custom-shape-divider-top-1712199990 svg {
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 68px;
+}
+.divider {
+  fill: $OxfordBlue;
+  opacity: 0.5;
+}
+
+main {
+  display: grid;
+  border-bottom: 7px solid rgba($color: $White, $alpha: 0.2);
+  // background: rgba($color: $White, $alpha: 0.2);
+}
+.mainGrid {
+  grid-template-columns: auto 4fr;
+}
+
+#change-due {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+  p:first-of-type {
+    padding-top: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  p:last-of-type {
+    padding-bottom: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  &>p {
+    width: 100%;
+    background: $White;
+    padding: 0 5px;
+  }
+}
+
+#desktopArea {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+  #desktop {
+    display: grid;
+    place-items: center;
+    // margin: 5px 0;
+    &>div {
+      background: $White;
+      opacity: 0.9;
+    }
+
+    // shapes
+    .empty {
+      height: 20px;
+      width: 15px;
+      background: #000;
+    }
+    .trapezoid {
+      border-bottom: 20px solid #000;
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+      height: 0;
+      width: 125px;
+      background: transparent;
+    }
+    #bottomLine {
+      width: $desktopWidth;
+      height: 8px;
+      background: #000;
+    }
+    #topScreen, #topEmpty {
+      position: relative;
+      left: calc($desktopWidth - 300px);
+    }
+    #topScreen {
+      width: 150px;
+      border: 2px solid #000;
+      border-radius: 3px;
+      padding: 5px;
+    }
+    #mainScreen {
+      width: $desktopWidth;
+      border: 4px solid #000;
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+      display: grid;
+      grid-template-columns: 60% 40%;
+      padding: 10px;
+      #changeArea {
+        padding-right: 10px;
+        &>p {
+          margin-bottom: 5px;
+        }
+        #changeDisplay {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          ul {
+            li {
+              list-style: none;
+              border: 1px solid gray;
+              padding: 0.7px;
+            }
+          }
+        }
+      }
+      
+      #inputArea {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        input {
+          margin-top: 10px;
+          width: 100%;
+        }
+        button {
+          background: $OxfordBlue;
+          color: $White;
+          padding: 5px;
+          border: none;
+          border-radius: 5px;
+          &:hover {
+            cursor: pointer;
+            background: $White;
+            color: $OxfordBlue;
+            padding: 3px;
+            border: 2px solid $OxfordBlue;
+          }
+        }
+      }
+    }
+  }
+}
