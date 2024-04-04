@@ -102,7 +102,7 @@ For the SVG at the bottom
 ## Build a Cash Register
 
 ### Page Screenshot
-![]()
+![](https://github.com/YoonadiMon/FreeCodeCamp_certificationProject/blob/main/Screenshots/ScreenshotCashRegister.png?raw=true)
 Github Repo: [https://github.com/YoonadiMon/FreeCodeCamp_certificationProject/tree/main/JavaScript%20Algorithms%20and%20Data%20Structures%20(Beta)/Build%20a%20Cash%20Register](https://github.com/YoonadiMon/FreeCodeCamp_certificationProject/tree/main/JavaScript%20Algorithms%20and%20Data%20Structures%20(Beta)/Build%20a%20Cash%20Register)
 
 ### Wakatime Badge
