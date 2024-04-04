@@ -8,6 +8,7 @@
 | [Survey Form](#survey-form) | [Responsive Web Design](https://www.freecodecamp.org/learn/2022/responsive-web-design/) | 26-March-2024 |
 | [Build a Roman Numeral Converter](#build-a-roman-numeral-converter) | [JavaScript Algorithms and Data Structures (Beta)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/) | 28-March-2024 |
 | [Build a Telephone Number Validator](#build-a-telephone-number-validator) | [JavaScript Algorithms and Data Structures (Beta)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/) | 1-April-2024 |
+| [Build a Cash Register](#build-a-cash-register) | [JavaScript Algorithms and Data Structures (Beta)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/) | 4-April-2024 |
 
 
 ## Build a Palindrome Checker
@@ -97,6 +98,8 @@ Some of the Stack Overflow pages I looked through.
 
 For the SVG at the bottom
 - [Shape Divider](https://www.shapedivider.app/)
+
+## Build a Cash Register
   
 # Acknowledgments
 
