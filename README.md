@@ -8,6 +8,7 @@
 | [Survey Form](#survey-form) | [Responsive Web Design](https://www.freecodecamp.org/learn/2022/responsive-web-design/) | 26-March-2024 |
 | [Build a Roman Numeral Converter](#build-a-roman-numeral-converter) | [JavaScript Algorithms and Data Structures (Beta)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/) | 28-March-2024 |
 | [Build a Telephone Number Validator](#build-a-telephone-number-validator) | [JavaScript Algorithms and Data Structures (Beta)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/) | 1-April-2024 |
+| [Build a Cash Register](#build-a-cash-register) | [JavaScript Algorithms and Data Structures (Beta)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/) | 4-April-2024 |
 
 
 ## Build a Palindrome Checker
@@ -97,6 +98,26 @@ Some of the Stack Overflow pages I looked through.
 
 For the SVG at the bottom
 - [Shape Divider](https://www.shapedivider.app/)
+
+## Build a Cash Register
+
+### Page Screenshot
+![]()
+Github Repo: [https://github.com/YoonadiMon/FreeCodeCamp_certificationProject/tree/main/JavaScript%20Algorithms%20and%20Data%20Structures%20(Beta)/Build%20a%20Cash%20Register](https://github.com/YoonadiMon/FreeCodeCamp_certificationProject/tree/main/JavaScript%20Algorithms%20and%20Data%20Structures%20(Beta)/Build%20a%20Cash%20Register)
+
+### Wakatime Badge
+![](https://wakatime.com/badge/user/018e0ede-5109-4231-a915-219f103a6ca7/project/018ea6f3-b691-43d4-b31d-1d67dc1b0ea0.svg)
+
+### What I learned
+
+Round to two decimal:
+```js
+changeToConvert = (Number(cashAmount) - Number(price)).toFixed(2)
+```
+
+### Useful resources
+
+- [https://stackoverflow.com/questions/11832914/how-to-round-to-at-most-2-decimal-places-if-necessary](https://stackoverflow.com/questions/11832914/how-to-round-to-at-most-2-decimal-places-if-necessary) 
   
 # Acknowledgments
 
