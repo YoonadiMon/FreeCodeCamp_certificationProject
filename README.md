@@ -106,6 +106,7 @@ For the SVG at the bottom
 Github Repo: [https://github.com/YoonadiMon/FreeCodeCamp_certificationProject/tree/main/JavaScript%20Algorithms%20and%20Data%20Structures%20(Beta)/Build%20a%20Cash%20Register](https://github.com/YoonadiMon/FreeCodeCamp_certificationProject/tree/main/JavaScript%20Algorithms%20and%20Data%20Structures%20(Beta)/Build%20a%20Cash%20Register)
 
 ### Wakatime Badge
+![](https://wakatime.com/badge/user/018e0ede-5109-4231-a915-219f103a6ca7/project/018ea6f3-b691-43d4-b31d-1d67dc1b0ea0.svg)
 ![WakatimeStat](https://github.com/YoonadiMon/FreeCodeCamp_certificationProject/assets/161032662/b4189ae9-f67c-4833-aec6-6bca48254f2c)
 
 ### What I learned
