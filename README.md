@@ -140,7 +140,7 @@ To keep background fixed in position as page is scrolled:
 
 ### Useful resources
 
-- [Promises and .then]([https://stackoverflow.com/questions/27539262/whats-the-difference-between-align-content-and-align-items](https://stackoverflow.com/questions/34094806/return-from-a-promise-then)) 
+- [Promises and .then](https://stackoverflow.com/questions/27539262/whats-the-difference-between-align-content-and-align-items](https://stackoverflow.com/questions/34094806/return-from-a-promise-then)
 
   
 # Acknowledgments
