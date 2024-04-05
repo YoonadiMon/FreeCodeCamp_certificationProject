@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="https://cdn.freecodecamp.org/universal/favicons/favicon.ico">
+  <title>Pokémon Search App</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" alt="freecodecamp">
+    <h1>Pokémon Search App</h1>
+  </header>
+  <main>
+    <div id="mainL">
+      <div id="userInteract">
+        <p>Search for Pokémon Name or ID:</p>
+        <div id="row2">
+          <input type="text" id="search-input" required>
+          <button id="search-button">
+            <img src="https://cdn.pixabay.com/photo/2016/07/23/13/18/pokemon-1536849_1280.png" alt="pokemon-1536849_1280" id="searchImg">
+          </button>
+        </div>
+      </div>
+      <div id="cardArea">
+        <div id="pokemonCard">
+          <div id="basicInfo">
+            <p id="pokemon-name"></p>
+            <p id="pokemon-id"></p>
+            <p id="weight"></p>
+            <p id="height"></p>
+          </div>
+          <div id="imgArea"></div>
+          <div id="types"></div>
+        </div>
+      </div>
+    </div>
+    <div id="mainR">
+        <div class="title">Base</div>
+        <div class="title">Stats</div>
+        <div>HP: </div>
+        <div id="hp"></div>
+        <div>Attack: </div>
+        <div id="attack"></div>
+        <div>Defense: </div>
+        <div id="defense"></div>
+        <div>Sp. Attack: </div>
+        <div id="special-attack"></div>
+        <div>Sp. Defense: </div>
+        <div id="special-defense"></div>
+        <div>Speed: </div>
+        <div id="speed"></div>
+
+    </div>
+
+  </main>
+  <!-- javascript -->
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,166 @@
+@import "./_colors";
+$cardWidth: 450px; 
+$cardPadding: 10px;
+$screenWidth: calc(($cardWidth * 2) - 10px);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: $themecolor1;
+}
+header {
+  display: grid;
+  place-items: center;
+  &>img {
+    height: 30px;
+    margin: 25px 0;
+  }
+  &>h1 {
+    color: $themecolor2;
+    font-size: 32px;
+  }
+}
+main {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  #mainL, #mainR {
+    width: $cardWidth;
+    height: 70vmin;
+    border-radius: 5px;
+    background: $themecolor2;
+    box-shadow: (5px 5px rgba($color: $themecolor2, $alpha: 0.5));
+  }
+  #mainL {
+    padding: $cardPadding;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    #userInteract {
+      &>p {
+        margin-bottom: 5px;
+      }
+      #row2, p {
+        display: flex;
+        justify-content: center;
+      }
+      #search-button {
+        margin-left: 20px;
+        background: transparent;
+        width: 25px;
+        height: 25px;
+        border: none;
+        #searchImg {
+          width: 100%;
+        }
+        &:hover {
+          cursor: pointer;
+          animation: shake 0.5s;
+          animation-iteration-count: infinite;
+        }
+      }
+    }
+    #pokemonCard {
+      display: none;
+      margin-top: 10px;
+      background: $themecolor2;
+      width: calc($cardWidth * 0.5);
+      aspect-ratio: 2/3;
+      border: 5px solid $themecolor3;
+      border-radius: 8px;
+      padding: $cardPadding;
+      position: relative;
+      #basicInfo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      #imgArea {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        img {
+          width: 200px;
+        }
+      }
+      #types {
+        position: absolute;
+        bottom: 30px;
+        .pokeType {
+          display: inline;
+          color: $themecolor2;
+          padding: 5px;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+  #mainR {
+    padding: $cardPadding;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 5px;
+    color: $themecolor2;
+    text-align: center;
+    .title {
+      background: $themecolor4;
+      font-weight: 700;
+    }
+    &>div {
+      display: grid;
+      align-content: space-around;
+      background: $themecolor3;
+      font-weight: 500;
+    }
+  }
+}
+
+// type background color
+#normal { background-color: #9FA19F };
+#fighting { background-color: #FF8000 };
+#flying { background-color: #81B9EF};
+#poison { background-color: #9141CB};
+#ground { background-color: #915121};
+#rock { background-color: #AFA981};
+#bug { background-color: #91A119};
+#ghost { background-color: #704170};
+#steel { background-color: #60A1B8};
+#fire { background-color: #E62829};
+#water { background-color: #2980EF};
+#grass { background-color: #3FA129};
+#electric { background-color: #FAC000};
+#psychic { background-color: #EF4179};
+#ice { background-color: #3DCEF3};
+#dragon { background-color: #5060E1};
+#dark { background-color: #624D4E};
+#fairy { background-color: #EF70EF};
+#unknown { background-color: #68A090};
+#shadow { background-color: #1E0505};
+
+
+
+
+@media (max-width: $screenWidth) {
+  main {
+    flex-direction: column;
+    align-items: center;
+    #mainL {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+    #mainR {
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+      margin-bottom: 25px;
+    }
+    }
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 0); }
+  30% { transform: translate(-1px, 0); }
+  60% { transform: translate(1px, 0); }
+  90% { transform: translate(-1px, 0); }
+}
