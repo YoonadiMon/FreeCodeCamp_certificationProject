@@ -9,7 +9,7 @@
 | [Build a Roman Numeral Converter](#build-a-roman-numeral-converter) | [JavaScript Algorithms and Data Structures (Beta)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/) | 28-March-2024 |
 | [Build a Telephone Number Validator](#build-a-telephone-number-validator) | [JavaScript Algorithms and Data Structures (Beta)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/) | 1-April-2024 |
 | [Build a Cash Register](#build-a-cash-register) | [JavaScript Algorithms and Data Structures (Beta)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/) | 4-April-2024 |
-
+| [Build a Pokémon Search App](#build-a-pokémon-search-app) | [JavaScript Algorithms and Data Structures (Beta)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/) | 5-April-2024 |
 
 ## Build a Palindrome Checker
 
@@ -117,7 +117,31 @@ changeToConvert = (Number(cashAmount) - Number(price)).toFixed(2)
 
 ### Useful resources
 
-- [https://stackoverflow.com/questions/11832914/how-to-round-to-at-most-2-decimal-places-if-necessary](https://stackoverflow.com/questions/11832914/how-to-round-to-at-most-2-decimal-places-if-necessary) 
+- [https://stackoverflow.com/questions/11832914/how-to-round-to-at-most-2-decimal-places-if-necessary](https://stackoverflow.com/questions/11832914/how-to-round-to-at-most-2-decimal-places-if-necessary)
+
+## Build a Pokémon Search App
+
+### Page Screenshot
+![](https://github.com/YoonadiMon/FreeCodeCamp_certificationProject/blob/main/Screenshots/ScreenshotPok%C3%A9monSearchApp.png?raw=true)
+Github Repo: [https://github.com/YoonadiMon/FreeCodeCamp_certificationProject/tree/main/JavaScript%20Algorithms%20and%20Data%20Structures%20(Beta)/Build%20a%20Pokemon%20Search%20App](https://github.com/YoonadiMon/FreeCodeCamp_certificationProject/tree/main/JavaScript%20Algorithms%20and%20Data%20Structures%20(Beta)/Build%20a%20Pokemon%20Search%20App)
+
+### Wakatime Stats
+[![wakatime](https://wakatime.com/badge/user/018e0ede-5109-4231-a915-219f103a6ca7/project/018eabe0-5f77-4f0d-83c1-6ca2f981d3ba.svg)](https://wakatime.com/badge/user/018e0ede-5109-4231-a915-219f103a6ca7/project/018eabe0-5f77-4f0d-83c1-6ca2f981d3ba)
+
+### What I learned
+
+To keep background fixed in position as page is scrolled:
+```javascript
+  fetch('url')
+  .then((res)=>res.json())
+  .then((data)=>{})
+  .catch((err)=>console.error(`There is an error: ${err}`));
+```
+
+### Useful resources
+
+- [Promises and .then](https://stackoverflow.com/questions/34094806/return-from-a-promise-then)
+
   
 # Acknowledgments
 
