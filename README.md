@@ -10,6 +10,7 @@
 | [Build a Telephone Number Validator](#build-a-telephone-number-validator) | [JavaScript Algorithms and Data Structures (Beta)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/) | 1-April-2024 |
 | [Build a Cash Register](#build-a-cash-register) | [JavaScript Algorithms and Data Structures (Beta)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/) | 4-April-2024 |
 | [Build a Pokémon Search App](#build-a-pokémon-search-app) | [JavaScript Algorithms and Data Structures (Beta)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/) | 5-April-2024 |
+| [Build a Random Quote Machine](#build-a-Random-Quote-Machine) | [Front End Development Libraries](https://www.freecodecamp.org/learn/front-end-development-libraries/) | 20-Oct-2024 |
 
 ## Build a Palindrome Checker
 
@@ -142,6 +143,15 @@ To keep background fixed in position as page is scrolled:
 
 - [Promises and .then](https://stackoverflow.com/questions/34094806/return-from-a-promise-then)
 
+## Build a Random Quote Machine
+
+### Page Screenshot
+
+### Wakatime Stats
+
+### What I learned
+
+### Useful resources
   
 # Acknowledgments
 
