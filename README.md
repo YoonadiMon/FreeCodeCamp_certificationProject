@@ -146,8 +146,10 @@ To keep background fixed in position as page is scrolled:
 ## Build a Random Quote Machine
 
 ### Page Screenshot
+![](https://github.com/YoonadiMon/FreeCodeCamp_certificationProject/blob/main/Screenshots/ScreenshotRandomQuoteMachine.png?raw=true)
 
-### Wakatime Stats
+### Live Website
+Link: https://yoonadimon.github.io/random-quote-machine/
 
 ### What I learned
 
